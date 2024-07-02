@@ -25,4 +25,4 @@ jobs:
       - name: Publish packages
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-        run: npx lerna publish
+        run: npx lerna publish prepatch -y

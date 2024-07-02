@@ -15,5 +15,6 @@
         "prettier": "^3.3.2",
         "ts-jest": "^29.1.5",
         "typescript": "^5.5.2"
-    }
+    },
+    "gitHead": "56250e3e7f1fd49c739169cf1383f2ea3280433b"
 }

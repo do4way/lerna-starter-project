@@ -3,6 +3,10 @@
     "packageManager": "yarn@4.0.2",
     "version": "0.0.1-alpha.0",
     "type": "module",
+    "scripts": {
+        "test": "jest",
+        "build": "tsc"
+    },
     "devDependencies": {
         "@types/jest": "^29.5.12",
         "@types/node": "^20.14.9",
@@ -18,5 +22,6 @@
     },
     "dependencies": {
         "dayjs": "^1.11.11"
-    }
+    },
+    "gitHead": "56250e3e7f1fd49c739169cf1383f2ea3280433b"
 }
