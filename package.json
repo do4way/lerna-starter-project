@@ -1,6 +1,6 @@
 {
     "name": "@do4way/lerna-starter",
-    "private": true,
+    "version": "0.0.1",
     "type": "module",
     "workspaces": [
         "packages/*"

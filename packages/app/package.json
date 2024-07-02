@@ -1,6 +1,8 @@
 {
     "name": "@do4way/lerna-starter-app",
     "packageManager": "yarn@4.0.2",
+    "version": "0.0.1",
+    "type": "module",
     "scripts": {
         "dev": "vite",
         "build": "vite build",

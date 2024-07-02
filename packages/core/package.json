@@ -1,6 +1,8 @@
 {
     "name": "@do4way/lerna-starter-core",
     "packageManager": "yarn@4.0.2",
+    "version": "0.0.1",
+    "type": "module",
     "devDependencies": {
         "@types/jest": "^29.5.12",
         "@types/node": "^20.14.9",
