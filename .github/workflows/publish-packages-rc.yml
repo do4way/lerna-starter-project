@@ -25,4 +25,7 @@ jobs:
       - name: Publish packages
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-        run: npx lerna publish prepatch -y
+        run: |
+          git config --global user.email "yongwei.dou@gmail.com"
+          git config --global user.name "Yongwei Dou"
+          npx lerna publish prerelease -y
