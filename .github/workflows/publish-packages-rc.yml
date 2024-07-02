@@ -26,9 +26,8 @@ jobs:
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: |
-          echo "@do4way:registry=https://registry.npmjs.org/" > ~/.npmrc
-          echo "//registry.npmjs.org/:_authToken=\${NODE_AUTH_TOKEN}" >> ~/.npmrc
+          echo "//registry.npmjs.org/:_authToken=\${NODE_AUTH_TOKEN}" > ~/.npmrc
           echo "AUTH_TOKEN: ${NODE_AUTH_TOKEN}"
           git config --global user.email "yongwei.dou@gmail.com"
           git config --global user.name "Yongwei Dou"
-          npx lerna publish from-package -y
+          npx lerna publish from-package -y --registry=https://registry.npmjs.org/
