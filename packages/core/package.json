@@ -1,5 +1,5 @@
 {
-    "name": "@do4way/lerna-starter-core",
+    "name": "lerna-starter-core",
     "packageManager": "yarn@4.0.2",
     "version": "0.0.1-alpha.3",
     "type": "module",
