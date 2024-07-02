@@ -30,4 +30,4 @@ jobs:
           echo "AUTH_TOKEN: ${NODE_AUTH_TOKEN}"
           git config --global user.email "yongwei.dou@gmail.com"
           git config --global user.name "Yongwei Dou"
-          npx lerna publish from-package -y --registry=https://registry.npmjs.org/
+          npx lerna publish --no-private prerelease --yes --no-verify-access
